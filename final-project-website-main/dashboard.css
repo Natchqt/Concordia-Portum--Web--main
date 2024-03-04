@@ -1,0 +1,108 @@
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(50px);
+}
+
+header .profile img {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 17px;
+}
+
+header .aboutus img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 17px;
+}
+header .logo img {
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+header .logo {
+    margin-top: 10px;
+    font-family: 'Kavoon', cursive;
+}
+
+header .form-floating {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+header .form-floating .form-control {
+    height: 20px;
+    border-radius: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .cart {
+    margin-left: auto;
+    margin-top: 17px;
+}
+
+header .cart img {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 17px auto;
+}
+
+
+.product-container {
+    margin-left: 50px;
+    top: 10px;
+}
+
+.navigation {
+    position: fixed !important;
+    margin-top: 20px;
+    width: 260px;
+    height: 80vh;
+    font-family: 'Kavoon', cursive;
+    font-size: 20px;
+}
+
+.product-card:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    transition: 0.3s ease-in-out;
+}
+
+.outer-container {
+    padding-bottom: -100px;
+}
+
+.product-card img {
+    width: 280px;
+    height: 280px;
+}
+
+.navigation .container .product-link {
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.product-link:hover {
+    background-color: #6f3df8;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Publico:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="padding-top: 120px; height: 100vh;">
+            <header class="fixed-top" style="padding: 3px 0px;">
+                <div class="container-fluid">
+                    <div class="row justify-content-between">
+                        <div class="col d-flex align-items-center">
+                            <a href="profile.html" class="logo"><img src="images/concordialogo.png" class="user-image" alt="logo"></a>
+                            <h3 class="logo">Concordia Portum</h3>
+                        </div>
+    
+                        <div class="col">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <a class="cart" href="cart.html"><img src="images/shop-cart.png" alt="cart"></a>
+                                <a href="aboutus.html" class="aboutus ml-3"><img src="images/about-us.png" class="user-image" alt="profile"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="card w-50 mx-auto p-4">
+                <form>
+                    <h1 class="text-center mb-5" style="font-family: 'Kavoon', cursive;">Registration</h1>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating mb-3 text-center">
+                                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                                <label class="form-label-custom" for="floatingEmail">Email</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating mb-3 text-center">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label class="form-label-custom" for="floatingPassword">Password</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating mb-3 text-center">
+                                <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Confirm Password">
+                                <label class="form-label-custom" for="floatingConfirmPassword">Confirm Password</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label-custom">
+                                <input type="radio" name="gender" value="male">
+                                Male
+                            </label>
+    
+                            <label class="form-label-custom" style="margin: 10px 20px;">
+                                <input type="radio" name="gender" value="Female">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex justify-content-center">
+                        <a href="dashboard.html">
+                            <button type="button" class="btn btn-outline-secondary" style="color: #000000; text-decoration: none;">Register</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+            crossorigin="anonymous"></script>
+    </body>
+    
+</html>
